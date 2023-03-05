@@ -26,9 +26,6 @@ Now, that we have a basic understanding of what an API is and can do, let's get 
 
 **NOTE:** In this document, I'll be focusing on REST APIs and referring to web applications specifically.  
 
-
-### Different Types of APIs
-
 #### REST API
 
 REST API stands for RESTful API. Not very helpful at first glance I understand, but hang on a second. 
@@ -74,11 +71,9 @@ Now, if I have to send this detail from one application to another in JSON, the 
 ```
 The contact data will be shared in the above format between the two applications and will be a part of the API call that will be made.
 
-#### SOAP 
-
-#### Graph QL
-
 #### Webhooks vs API
+
+
 
 ### Tools to help us
 
@@ -91,4 +86,5 @@ The contact data will be shared in the above format between the two applications
 
 ### Citations/References
 
-1. https://www.redhat.com/en/topics/api/what-is-a-rest-api
+1. What is a REST API? - Redhat - https://www.redhat.com/en/topics/api/what-is-a-rest-api
+2. 
