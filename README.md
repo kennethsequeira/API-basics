@@ -34,6 +34,8 @@ REST is an architecture on top which one can build their API service. Most web a
 
 When a client request is made via a RESTful API, it transfers a representation of the state of the resource to the requester or endpoint[1]. The data or information can be transferred over HTTP in various formats of which JSON is the most popular. 
 
+< Add CRUD Reference >
+
 ##### What is JSON?
 
 JSON stands for JavaScript Object Notation and is an open format file format used for exchanging data over the internet. While initially this grew out of Javascript, a popular programming language but is now object independent as other languages have gained the ability to parse it[2]. 
@@ -79,6 +81,12 @@ The contact data will be shared in the above format between the two applications
 
 
 ### cURL
+
+### Request Types
+
+GET
+POST
+
 
 ### Making an API Call
 
