@@ -2,7 +2,7 @@
 
 ### Who is this for?
 
-This guide is meant for absolute beginners. As a Sales Engineer, I often have to demonstrate API capabilties of my products. After receiveing help from colleagues I have decided to make a guide in an attempt to make understandig this topic easy. 
+This guide is meant for absolute beginners. As a Sales Engineer, I often have to demonstrate API capabilties of my products. After receiveing help from colleagues I have decided to make a guide in an attempt to make understanding this topic easy. 
 
 The end goal is for you to learn about the very basics of working with APIs, specifically REST API, and make a few API calls using a tool such as Postman or from your terminal. 
 
@@ -43,7 +43,7 @@ Whenever an API call is done, it is restricted to one of the above data operatio
 | **Operation** | **Description**               |
 |---------------|-------------------------------|
 | CREATE        | Adding new record(s)          |
-| READ          | Retrieving existing record(s) |
+| READ          | Retrieving/Pulling existing record(s) |
 | UPDATE        | Modifying existing record(s)  |
 | DELETE        | Delete record(s)              |
 
@@ -87,7 +87,21 @@ The contact data will be shared in the above format between the two applications
 
 #### Webhooks vs API
 
+Another term you ought to hear very often while discussing REST APIs is Webhook. It is nothing but a subset of APIs. 
 
+APIs are reactive whereas Webhooks are proactive. An API works when a request is made to it by an external system. Based on the data received, it will provide a response. An API also has to support all CRUD operations. 
+
+A webhook on the other hand is event driven. A webhook will send data out to an external based on a specific event.
+Eg: You purchased something from a E-commerce website and immediately get an SMS. That action is driven by a webhook. The webhook will send your order details to the SMS portal which will trigger the SMS to you. 
+
+To summarise:
+
+| **REST API**                                                                                | **Webhook**                                                                             |
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Architectural style to allow communication between different web applications               | Subset of API                                                                           |
+| Needs an incoming request from an external system and will share response based on the same | Event driven. It will push data to an external system based on a specific event trigger |
+| API needs to support CRUD operations from single resource                                   | Purpose specific. Will only do data push to a resource                                  |
+| Use Cases: CRUD - data pull, push, modification, deletion                                   | Use Cases: push data to external system                                                 |                            |
 
 ### Tools to help us
 
@@ -107,4 +121,4 @@ POST
 ### References
 
 1. What is a REST API? - Redhat - https://www.redhat.com/en/topics/api/what-is-a-rest-api
-2. 
+2. WEbhook vs API - Zapier - https://zapier.com/blog/webhook-vs-api/
