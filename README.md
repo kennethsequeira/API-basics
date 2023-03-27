@@ -22,6 +22,8 @@ If we now increase the scope to acquiring a few hundred customers a day, even th
 
 The Accounting application will have a set of APIs that the CRM can use to share the customer data. This will remove the manual intervention discussed in the first couple of data sharing options. And since this is a more automated way, it can run on a far better scale than copying data one by one, or uploading a part of it at a time using spreadsheets!
 
+APIs are used more widely than just inter-application communication. They can be used to communicate between different services of the same application as well. Say you're using a banking application from your computer. The application has a set of APIs that allow it to connect to the backend and database. Likewise, when you switch to the mobile application, the mobile app uses a set of APIs to communicate with the backend of the banking system. 
+
 Now, that we have a basic understanding of what an API is and can do, let's get to know different kinds of data available. 
 
 **NOTE:** In this document, I'll be focusing on REST APIs and referring to web applications specifically.  
