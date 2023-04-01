@@ -1,5 +1,7 @@
 # Rest API Basics
 
+![API logo](/API-logo.png)
+
 ### Who is this for?
 
 This guide is meant for absolute beginners. As a Sales Engineer, I often have to demonstrate API capabilties of my products. After receiveing help from colleagues I have decided to make a guide in an attempt to make understanding this topic easy. 
@@ -19,6 +21,9 @@ Now, whenever a new customer is acquired, you already have some data residing in
 But what if you are maybe acquiring 50 customers per day? You'd say okay, creating the record manually would be a pain, and you'd say maybe you can export the data from the CRM in a spreadsheet (Excel, CSV) and upload it back into the Accounting software. Great! But now you have the overhead of matching the columns correctly, also you'd do this maybe once or twice a day at best.
 
 If we now increase the scope to acquiring a few hundred customers a day, even the spreadsheet method becomes tasking. This is where APIs will come in handy. 
+
+![Rest API](/Rest-API.png)
+<p style="text-align:center"><i>credits_ :https://www.seobility.net/en/wiki/REST_API_</i></p>
 
 The Accounting application will have a set of APIs that the CRM can use to share the customer data. This will remove the manual intervention discussed in the first couple of data sharing options. And since this is a more automated way, it can run on a far better scale than copying data one by one, or uploading a part of it at a time using spreadsheets!
 
@@ -95,6 +100,8 @@ APIs are reactive whereas Webhooks are proactive. An API works when a request is
 
 A webhook on the other hand is event driven. A webhook will send data out to an external based on a specific event.
 Eg: You purchased something from a E-commerce website and immediately get an SMS. That action is driven by a webhook. The webhook will send your order details to the SMS portal which will trigger the SMS to you. 
+
+![Webhook vs Rest API](/webhook_v_api.png)
 
 To summarise:
 
