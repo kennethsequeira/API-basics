@@ -23,7 +23,7 @@ But what if you are maybe acquiring 50 customers per day? You'd say okay, creati
 If we now increase the scope to acquiring a few hundred customers a day, even the spreadsheet method becomes tasking. This is where APIs will come in handy. 
 
 ![Rest API](/Rest-API.png)
-<p style="text-align:center"><i>credits_ :https://www.seobility.net/en/wiki/REST_API_</i></p>
+<p style="text-align:center"><i>credits :https://www.seobility.net/en/wiki/REST_API_</i></p>
 
 The Accounting application will have a set of APIs that the CRM can use to share the customer data. This will remove the manual intervention discussed in the first couple of data sharing options. And since this is a more automated way, it can run on a far better scale than copying data one by one, or uploading a part of it at a time using spreadsheets!
 
