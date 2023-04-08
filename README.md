@@ -2,13 +2,13 @@
 
 ![API logo](/API-logo.png)
 
-### Who is this for?
+## Who is this for?
 
 This guide is meant for absolute beginners. As a Sales Engineer, I often have to demonstrate API capabilties of my products. After receiveing help from colleagues I have decided to make a guide in an attempt to make understanding this topic easy. 
 
 The end goal is for you to learn about the very basics of working with APIs, specifically REST API, and make a few API calls using a tool such as Postman or from your terminal. 
 
-### What is an API?
+## What is an API?
 
 To start making API calls, we first start with learning about an API. 
 
@@ -33,7 +33,7 @@ Now, that we have a basic understanding of what an API is and can do, let's get 
 
 **NOTE:** In this document, I'll be focusing on REST APIs and referring to web applications specifically.  
 
-#### REST API
+## REST API
 
 REST API stands for RESTful API. Not very helpful at first glance I understand, but hang on a second. 
 
@@ -41,7 +41,7 @@ REST is an architecture on top which one can build their API service. Most web a
 
 When a client request is made via a RESTful API, it transfers a representation of the state of the resource to the requester or endpoint[1]. The data or information can be transferred over HTTP in various formats of which JSON is the most popular. 
 
-##### CRUD
+## CRUD
 
 CRUD stands for Create, Read, Update, and Delete. Rest APIs calls are generally CRUD operations. 
 
@@ -54,7 +54,7 @@ Whenever an API call is done, it is restricted to one of the above data operatio
 | UPDATE        | Modifying existing record(s)  |
 | DELETE        | Delete record(s)              |
 
-##### What is JSON?
+## What is JSON?
 
 JSON stands for JavaScript Object Notation and is an open format file format used for exchanging data over the internet. While initially this grew out of Javascript, a popular programming language but is now object independent as other languages have gained the ability to parse it. 
 
@@ -92,7 +92,7 @@ Now, if I have to send this detail from one application to another in JSON, the 
 
 The contact data will be shared in the above format between the two applications and will be a part of the API call that will be made.
 
-#### Webhooks vs API
+## Webhooks vs API
 
 Another term you ought to hear very often while discussing REST APIs is Webhook. It is nothing but a subset of APIs. 
 
@@ -112,22 +112,22 @@ To summarise:
 | API needs to support CRUD operations from single resource                                   | Purpose specific. Will only do data push to a resource                                  |
 | Use Cases: CRUD - data pull, push, modification, deletion                                   | Use Cases: push data to external system                                                 |                            |
 
-### Tools to help us
+## Tools to help us
 
 
-### cURL
+## cURL
 
-### Request Types
+## Request Types
 
 GET
 POST
 
 
-### Making an API Call
+## Making an API Call
 
 
 
-### References
+## References
 
 1. What is a REST API? - Redhat - https://www.redhat.com/en/topics/api/what-is-a-rest-api
 2. WEbhook vs API - Zapier - https://zapier.com/blog/webhook-vs-api/
