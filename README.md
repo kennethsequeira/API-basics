@@ -114,6 +114,7 @@ To summarise:
 
 ## Tools to help us
 
+Rest API calls can generally be made via any programming language. However, for the purpose of this guide it is best to start with a tool like Postman or Hopscotch. 
 
 ## cURL
 
